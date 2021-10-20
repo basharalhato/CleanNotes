@@ -5,4 +5,6 @@
     <string name="color">Color</string>
     <string name="ascending">Ascending</string>
     <string name="descending">Descending</string>
+    <string name="your_notes">Your notes</string>
+    <string name="deleted_note">Note deleted</string>
 </resources>
