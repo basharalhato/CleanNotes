@@ -1,4 +1,4 @@
-package dev.bhato.cleannotes
+package dev.bhato.cleannotes.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
