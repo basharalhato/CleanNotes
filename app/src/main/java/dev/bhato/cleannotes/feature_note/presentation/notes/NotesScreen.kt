@@ -20,6 +20,7 @@ import androidx.navigation.NavController
 import dev.bhato.cleannotes.R
 import dev.bhato.cleannotes.feature_note.presentation.notes.components.NoteItem
 import dev.bhato.cleannotes.feature_note.presentation.notes.components.OrderSection
+import dev.bhato.cleannotes.feature_note.presentation.util.Screen
 import kotlinx.coroutines.launch
 
 @Composable
@@ -35,7 +36,7 @@ fun NotesScreen(
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {
-
+                    navController.navigate(Screen.AddEditNoteScreen.route)
                 },
                 backgroundColor = MaterialTheme.colors.primary
             ) {
