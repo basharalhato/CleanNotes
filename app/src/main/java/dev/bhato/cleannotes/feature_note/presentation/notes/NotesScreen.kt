@@ -22,7 +22,6 @@ import dev.bhato.cleannotes.feature_note.presentation.notes.components.NoteItem
 import dev.bhato.cleannotes.feature_note.presentation.notes.components.OrderSection
 import kotlinx.coroutines.launch
 
-@ExperimentalAnimationApi
 @Composable
 fun NotesScreen(
     navController: NavController,
