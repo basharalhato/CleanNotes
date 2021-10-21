@@ -8,8 +8,8 @@ import androidx.compose.material.Surface
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.navArgument
 import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navArgument
 import dagger.hilt.android.AndroidEntryPoint
 import dev.bhato.cleannotes.feature_note.presentation.add_edit_notes.AddEditNoteScreen
 import dev.bhato.cleannotes.feature_note.presentation.notes.NotesScreen
